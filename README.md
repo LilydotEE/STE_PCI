@@ -17,7 +17,7 @@ We compared our model with [PointINet](https://www.engineeringvillage.com/app/do
 ## Qualitative comparisons
 Our method can interpolate frames presented with more coherent motion and better local structural details, such as human feet, hair and hands.
 <div align="center">
-<img src="./fig/cmpare3.png"  width = "800" />
+<img src="./fig/compare3.png"  width = "800" />
 </div>
 
 ## Usage
