@@ -1,5 +1,19 @@
-# STFR_PCI
-This repository contains Pytorch implementation of **Learning Spatial-Temporal Embeddings for Sequential Point Cloud Frame Interpolation** (ICIP2023) by Zhao L, Sun Z, Ren L, Yin Q, Yang L and Guo M.[(Paper)](https://ieeexplore.ieee.org/document/10221958)
+# STE_PCI
+This repository contains Pytorch implementation of **Learning Spatial-Temporal Embeddings for Sequential Point Cloud Frame Interpolation** (ICIP2023)
+
+# Cite this work
+```
+@inproceedings{zhao2023learning,
+  title={Learning Spatial-Temporal Embeddings for Sequential Point Cloud Frame Interpolation},
+  author={Zhao, Lili and Sun, Zhuoqun and Ren, Lancao and Yin, Qian and Yang, Lei and Guo, Meng},
+  booktitle={2023 IEEE International Conference on Image Processing (ICIP)},
+  pages={810--814},
+  year={2023},
+  organization={IEEE}
+}
+```
+On-line Paper: [[Paper](https://ieeexplore.ieee.org/document/10221958)]
+
 ## Introduction
 ![Pipeline](./fig/pipeline.png) 
 In this paper, a novel frame interpolation network is proposed, which jointly exploits the spatial features and flows. The key success of our method lies in the developed **spatial-temporal feature propagation module** and **temporal-aware feature-to-point mapping module.** The former effectively embeds the spatial features and scene flows into a spatial-temporal feature representation (STFR). The latter generates a much improved target frame from STFR.
